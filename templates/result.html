@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body bgcolor="lightblue">
+	<header>
+		<div class="container">
+		<h2 style="color:white; font:Trebuchet MS; text-align: center;">PREDICTION RESULT</h2>
+		</div>
+	</div>
+	</header>
+	<div class="results">
+	{% if prediction == 1%}
+	<h2 style="color:red; text-align: center; font:Trebuchet MS">Alert: Spam Message</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:green; text-align: center; font:Trebuchet MS">This message is not a spam</h2>
+	{% endif %}
+	</div>
+</body>
+</html>
