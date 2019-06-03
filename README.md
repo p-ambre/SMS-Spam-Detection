@@ -15,5 +15,6 @@ Supervised machine learning algorithm- Naive Bayes Classifier
 
 app.py uses this model to build a command line application using the Python microframework, Flask. 
 
-Check the screenshots of the web application in output.pdf
+Check the screenshots of the web application in "output.pdf"
 
+If you have any doubts or suggestions please feel free to email me at pra22@njit.edu. Thank you!
